@@ -1,0 +1,14 @@
+{
+  "name": "rrd",
+  "version": "1.0.0",
+  "description": "Basic random scatter render with 500 elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Mulligan <jason.mulligan@avoidwork.com>",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "turtle.io": "^7.3.5"
+  }
+}

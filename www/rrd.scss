@@ -1,0 +1,26 @@
+$white: #ffffff;
+
+@keyframes fadeOut {
+  0%   { opacity: 0; }
+  50%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+html,
+body {
+  background: darken($white, 90%);
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+
+  &, * {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.wisp {
+  animation: fadeOut 5s infinite;
+  background: $white;
+  position: absolute;
+}
