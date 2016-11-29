@@ -12,7 +12,7 @@
 		function next () {
 			setTimeout(function () {
 				spawn("div");
-			}, random(16, 250));
+			}, random(1, 250));
 		}
 
 		function random(min, max) {
@@ -27,8 +27,8 @@
 				size = random(2, 6);
 				child = document.createElement(type);
 				child.classList.add("wisp");
-				child.style.top = random(1, height) + "px";
-				child.style.left = random(1, width) + "px";
+				child.style.top = random(0, height) + "px";
+				child.style.left = random(0, width) + "px";
 				child.style.height = size + "px";
 				child.style.width = size + "px";
 				child.style.borderRadius = Math.floor(size/2) + "px";
