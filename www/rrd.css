@@ -2,12 +2,14 @@
   0% {
     opacity: 0; }
   50% {
-    opacity: 1; }
+    opacity: 1;
+    transition-timing-function: ease-in; }
   100% {
-    opacity: 0; } }
+    opacity: 0;
+    transition-timing-function: ease-out; } }
 html,
 body {
-  background: #1a1a1a;
+  background: #0d0d0d;
   height: 100%;
   width: 100%;
   overflow: hidden; }
